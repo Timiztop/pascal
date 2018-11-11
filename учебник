@@ -1,0 +1,9 @@
+program k1;
+var a,s: string;
+begin 
+  a:='Касiу Ясь канюшыну';
+  s:=' Янка ';
+  delete(a,6,5);
+  insert(s,a,6);
+  write(a);
+ end. 
