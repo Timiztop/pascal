@@ -7,3 +7,30 @@ begin
   insert(s,a,6);
   write(a);
  end. 
+Параграв 5 пример5
+program a1;
+var a,b : integer;
+    sa,sb : string;
+begin
+  readln(a,b);
+  writeln('сложение - ',a+b);
+  str(a,sa);
+  str(b,sb);
+  writeln('Сцепление - ',sa+sb);
+end.
+
+упр номер3
+program b1a;
+var s,s1,s2 : string;
+begin
+  s:='реки горы и болота';
+  s1:='озера';
+  s2:=' горы';
+  delete(s,6,5);
+  writeln(s);
+  insert(s2,s,5);
+  delete(s,13,7);
+  insert(s1,s,13);
+  writeln(s);
+  end.
+
