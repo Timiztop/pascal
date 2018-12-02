@@ -34,3 +34,37 @@ begin
   writeln(s);
   end.
 
+парагра 6 пример1 
+program dfgdfg;
+var a:string;
+    i:integer;
+begin
+  writeln('введите слово или фразу');
+  readln(a);
+  for i:=length(a) downto 1 do begin
+    write(a[i]);
+    sleep(200);
+    end;
+end. 
+параграф 6
+1.
+program dfgdfgd;
+var
+slovo,simval:string;
+i,k:integer;
+begin
+k:=0;
+write('введите слово ');
+readln(slovo);
+write('введите символ ');
+readln(simval);
+for i:=1 to length(slovo) do
+begin
+if slovo[i]=simval then k:=k+1;
+if slovo[i]=simval then writeln(i,' ');
+end;
+if k>=1 then
+writeln('да есть ',k,' раз(а), на позиции ',i)else writeln('не встречается');
+writeln;
+end.
+  
